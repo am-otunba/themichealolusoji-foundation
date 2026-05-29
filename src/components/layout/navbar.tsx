@@ -9,7 +9,7 @@ export function Navbar() {
           href="/"
           className="text-xl font-bold tracking-tight text-[#113C96]"
         >
-          <img className="h-32 w-32" src="./Logo.PNG" alt="TMO Foundation" />
+          <img className="h-32 w-32" src="/Logo.PNG" alt="TMO Foundation" />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
