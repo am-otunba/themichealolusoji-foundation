@@ -5,12 +5,13 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur-xl">
       <Container className="flex h-20 items-center justify-between">
-        <Link
-          href="/"
-          className="text-xl font-bold tracking-tight text-[#113C96]"
-        >
-          <img className="h-32 w-32" src="/Logo.PNG" alt="TMO Foundation" />
-        </Link>
+        
+        <img src="/Logo.png" 
+          alt="TMO Foundation"
+          width={128}
+          height={128}
+          className="h-32 w-32"
+          />
 
         <nav className="hidden items-center gap-8 md:flex">
           <Link href="/">Home</Link>
